@@ -1,0 +1,22 @@
+body{
+	background-color: #001233;
+}
+nav{
+	padding: 10px;
+	box-sizing : 10px;
+	display: inline-block;
+	float: right;
+}
+nav a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	float: right;
+	font-size: 25px;
+}
+
+
+section{
+	color: white;
+}
+
