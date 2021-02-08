@@ -1,22 +1,79 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
 body{
-	background-color: #001233;
-}
-nav{
-	padding: 10px;
-	box-sizing : 10px;
-	display: inline-block;
-	float: right;
-}
-nav a{
-	padding: 10px;
-	text-decoration: none;
-	color: white;
-	float: right;
-	font-size: 25px;
+	font-family:"Lucida Grande"
 }
 
-
-section{
-	color: white;
+li{
+	list-style-type:none;
 }
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+body{
+	background-color:  #f5f2f1;
+}
+
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+
+/* Begin of header section */
+header{
+	height:65px;
+	width:100%;
+	background-color: black;
+	opacity:0.7;
+	color:white;
+}
+
+.header-left{
+	float:left;
+	line-height:65px;
+	padding-left:20px;
+	padding-right:20px;
+	cursor:pointer;
+	display:block;
+}
+
+.header-right{
+	float:right;
+}
+
+.header-right a {
+	float:left;
+	line-height:65px;
+	padding-left:20px;
+	padding-right:20px;
+	display:block;
+	cursor:pointer;
+}
+
+.header-right a:hover{	
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-left:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+/* End of header section */
+
+
+
+/* Begin of internship section */
+
+/* End of internship section */
+
+
+
+
 
